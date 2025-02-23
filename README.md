@@ -172,8 +172,7 @@ terraform apply -auto-approve
 **🔍 Step 6: Verify the Setup**
 
 Go to **Terraform Cloud** → **Workspaces**
-
-![Screenshot 2025-02-17 at 22.21.32.png]git-testing/hcp-terraform/HCP terraform notion/HCP Terraform VPC & Subnet Assignment 19d36aca720c809a929cdb6da9ec82a2/Screenshot_2025-02-17_at_22.21.32.png
+<img width="1152" alt="Screenshot_2025-02-17_at_22 21 32" src="https://github.com/user-attachments/assets/81864227-deb4-448b-8156-a75cf6cbcdfd" />
 
 (Check master-vpc workspace of Resources and Outputs)
 
