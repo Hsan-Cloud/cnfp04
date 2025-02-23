@@ -173,7 +173,7 @@ terraform apply -auto-approve
 
 Go to **Terraform Cloud** → **Workspaces**
 
-![Screenshot 2025-02-17 at 22.21.32.png](HCP%20Terraform%20VPC%20&%20Subnet%20Assignment%2019d36aca720c809a929cdb6da9ec82a2/Screenshot_2025-02-17_at_22.21.32.png)
+![Screenshot 2025-02-17 at 22.21.32.png]git-testing/hcp-terraform/HCP terraform notion/HCP Terraform VPC & Subnet Assignment 19d36aca720c809a929cdb6da9ec82a2/Screenshot_2025-02-17_at_22.21.32.png
 
 (Check master-vpc workspace of Resources and Outputs)
 
