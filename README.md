@@ -90,7 +90,7 @@ mkdir master-subnet
 cd master-subnet
 ```
 
-Inside **master-subnet/*version.tf, backend.tf, main.tf, output.tf***
+Inside **master-subnet/*version.tf, backend.tf, data.tf, main.tf, output.tf***
 
 ```jsx
 #for version.tf
@@ -128,7 +128,7 @@ terraform {
 use terraform_remote_state to fetch the VPC ID:
 
 ```jsx
-#for main.tf
+#for data.tf
 
 data "terraform_remote_state" "networking" {
   backend = "remote"
@@ -140,7 +140,10 @@ data "terraform_remote_state" "networking" {
     }
   }
 }
+```
 
+```jsx
+#for main.tf
 resource "aws_subnet" "my_jp_subnet" {
   vpc_id            = data.terraform_remote_state.networking.outputs.vpc_id
   cidr_block        = "10.0.1.0/24"
